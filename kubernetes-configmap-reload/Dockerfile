@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM openjdk:22-ea-4-jdk-slim
 VOLUME /c/Users/eresh.gorantla/
 COPY ./target/*.jar app.jar
 ENV JAVA_OPTS=""
